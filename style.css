@@ -1,0 +1,51 @@
+.img1 {
+    position: absolute;
+    z-index: -1;
+    height: 220px;
+    transform: translateX(60px);
+
+}
+
+
+body {
+    position: absolute;
+    z-index: 0;
+    background-color: rgb(232, 232, 232);
+    color: rgb(0, 0, 0);
+
+    
+}
+
+.pokemon {
+   background-image: url(asets/pokeball-logo-png-download-pokeball-png-png-image-transparent-png-free-download-on-seekpng.png.jpeg);
+    border-radius: 8px;
+    transform: translateY(-10px);
+}
+
+.container {
+    background-color: rgb(249, 249, 249);
+        border-radius: 8px;
+        border-bottom: 3px solid black;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hp {
+    margin-left: 20px;
+}
+
+.attack {
+    margin-left: 20px;
+}
+
+.defense {
+    margin-left: 20px;
+}
+
+h2 {
+    padding-left: 180px;
+    transform: translateY(10px);
+}
